@@ -62,7 +62,7 @@ http://127.0.0.1:5000
 
 ### History
 
-![History](screenshots/history.png)
+![History](screenshots/prediction_history.png)
 
 ---
 
