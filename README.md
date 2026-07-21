@@ -55,7 +55,12 @@ http://127.0.0.1:5000
 ![Prediction](screenshots/prediction.png)
 
 
-### Prediction History
+### Fraud Analysis Chart
+
+![Chart](screenshots/piechart.png)
+
+
+### History
 
 ![History](screenshots/history.png)
 
