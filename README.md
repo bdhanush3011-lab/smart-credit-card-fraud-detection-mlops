@@ -40,3 +40,43 @@ python app.py
 Open:
 
 http://127.0.0.1:5000
+
+---
+
+## 📸 Screenshots
+
+### Dashboard
+
+![Dashboard](screenshots/dashboard.png)
+
+
+### Prediction Results
+
+![Prediction](screenshots/prediction.png)
+
+
+### Prediction History
+
+![History](screenshots/history.png)
+
+---
+
+## 🔮 Future Improvements
+
+- Deploy using Docker and Cloud platforms
+- Add user authentication
+- Add real-time transaction monitoring
+- Implement advanced ML models
+- Add model performance monitoring
+
+---
+
+## 👨‍💻 Author
+
+**B. Dhanush**
+
+Artificial Intelligence and Machine Learning Student
+
+---
+
+⭐ If you find this project useful, consider giving it a star!
