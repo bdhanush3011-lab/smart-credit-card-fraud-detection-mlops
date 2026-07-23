@@ -1,6 +1,12 @@
-# Smart Credit Card Fraud Detection Dashboard
+# 🛡 Smart Credit Card Fraud Detection Dashboard
 
-A Machine Learning + MLOps based web application that detects fraudulent credit card transactions.
+A Machine Learning and MLOps-based web application that detects fraudulent credit card transactions.
+
+## 🌐 Live Demo
+
+🚀 **Live Website:** https://smart-credit-card-fraud-detection-mlops.onrender.com/
+
+💻 **GitHub Repository:** https://github.com/bdhanush3011-lab/smart-credit-card-fraud-detection-mlops
 
 ## Features
 
