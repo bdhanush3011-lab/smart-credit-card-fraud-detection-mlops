@@ -1,4 +1,5 @@
 from datetime import datetime
+import time
 import os
 
 from flask import Flask, render_template, request, send_file
@@ -35,7 +36,7 @@ def predict():
 
 
     # Prediction
-    result = predict_transaction(df.copy())
+    result = predict_transaction(df)
 
 
     # Save predictions
@@ -78,21 +79,12 @@ def predict():
 
 
 
-    if os.path.exists("history.csv"):
-
-        old_history = pd.read_csv("history.csv")
-
-        history_data = pd.concat(
-            [old_history, history_data],
-            ignore_index=True
-        )
-
-
-
     history_data.to_csv(
-        "history.csv",
-        index=False
-    )
+    "history.csv",
+    mode="a",
+    header=not os.path.exists("history.csv"),
+    index=False
+)
 
 
 
@@ -146,4 +138,4 @@ def history():
 
 
 if __name__ == "__main__":
-    app.run(debug=True)
+    app.run()
